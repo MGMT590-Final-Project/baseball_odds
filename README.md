@@ -13,7 +13,7 @@ Training
 4. Google Big Query (GBQ)
 
 Desc:  
-Using GCF, we set the function found in ./streaming/ to pull data as CSV between dates and insert it into (GCS). We iteratively pull one year at a time by triggering GCF with GCC. Once this data is loaded into GBQ, we run ./archive/final_score.sql to create our training data.
+Using GCF, we set the function found in ./streaming/ to pull data as CSV between dates and insert it into (GCS). We iteratively pull one year at a time by triggering GCF with GCC. Once this data is loaded into GBQ, we run ./model/final_score.sql to create our training data.
 
 Streaming
 ------------
